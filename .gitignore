@@ -1,0 +1,22 @@
+# Python / Django
+__pycache__/
+*.pyc
+backend/.env
+backend/staticfiles/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Frontend / Node
+node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env
+
+# Databases (keep schema via migrations only)
+*.sqlite3
+*.db
+backend/lostfound.db
+
+# Misc
+.codebuddy
+.DS_Store
